@@ -1,5 +1,2 @@
 # next_review
-Sentiment Predictions
-
-
-I would fin interesting on creating a model that can predict any sentiment review? Independent on the topic related factor? For this prpject, NLP technoques will be used to preict sentiment of the next review independent of the topic of it. This is a work in progress, please check back for updates
+The following project is based on the sentiment analysis of reviews of more than 19000 clients of a clothes store, these reviews have corresponding ratings according to the client experience, and the goal of the following work is based on these reviews, to build a model to predict sentiment of the next review, and check if this model can be used with reviews of other line of business. The clothes store review is also classified by product and department, this time graph analysis was done over some of the variables giving us as a general result that the store has more positive reviews than negative, Vader and TextBlob from the NLTK library was used to determine sentiment of the reviews, these results were translated to positive, negative and neutral results, and used as labels to build a Naïve Bayes, KNN and Random Forest. The model selected for the clothes review sentiment prediction was Random Forest Classifier, with an accuracy of 0.97.
